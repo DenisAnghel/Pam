@@ -1,0 +1,24 @@
+name: lab_3
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5 # Versiunea curentă stabilă a pachetului GetX
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+
+  # Specificarea fișierului JSON
+  assets:
+    - lib/v1.json
