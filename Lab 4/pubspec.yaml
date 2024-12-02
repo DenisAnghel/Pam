@@ -1,0 +1,35 @@
+name: lab44
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Including the assets directory for JSON and other assets like images
+  assets:
+    - assets/doctors.json    # Your JSON data file
+    - assets/icons/          # Directory containing category icons (e.g., cardiology.png)
+    - assets/banners/        # Directory containing banner images (e.g., health1.png, discount1.png)
+
+  # For custom fonts (if you decide to use them in the future)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
